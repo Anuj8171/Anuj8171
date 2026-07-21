@@ -125,8 +125,8 @@ Bi-directional sync engine automating CRUD workflows between Trello and Airtable
 
 <div align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Anuj8171/Anuj8171/output/dist/snake-dark.svg">
-  <img alt="snake animation" src="https://raw.githubusercontent.com/Anuj8171/Anuj8171/output/dist/snake.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Anuj8171/Anuj8171/output/snake-dark.svg">
+  <img alt="snake animation" src="https://raw.githubusercontent.com/Anuj8171/Anuj8171/output/snake.svg">
 </picture>
 </div>
 
