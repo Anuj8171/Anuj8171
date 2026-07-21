@@ -1,0 +1,30 @@
+<svg width="700" height="340" viewBox="0 0 700 340" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .card { opacity: 0; animation: fadeIn 0.6s ease forwards; }
+    .card1 { animation-delay: 0.1s; }
+    .card2 { animation-delay: 0.3s; }
+    .card3 { animation-delay: 0.5s; }
+    .card4 { animation-delay: 0.7s; }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(15px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    .label { font-family: monospace; font-size: 15px; font-weight: bold; fill: #ffffff; }
+  </style>
+
+  <rect class="card card1" x="20" y="20" width="320" height="130" rx="12" fill="#0d1117" stroke="#1D9E75" stroke-width="1.5"/>
+  <text class="card card1 label" x="40" y="50">Backend</text>
+  <image class="card card1" x="40" y="65" width="260" height="60" href="https://skillicons.dev/icons?i=nodejs,express,redis"/>
+
+  <rect class="card card2" x="360" y="20" width="320" height="130" rx="12" fill="#0d1117" stroke="#7F77DD" stroke-width="1.5"/>
+  <text class="card card2 label" x="380" y="50">Frontend</text>
+  <image class="card card2" x="380" y="65" width="260" height="60" href="https://skillicons.dev/icons?i=react,nextjs,tailwind"/>
+
+  <rect class="card card3" x="20" y="180" width="320" height="130" rx="12" fill="#0d1117" stroke="#D85A30" stroke-width="1.5"/>
+  <text class="card card3 label" x="40" y="210">Databases</text>
+  <image class="card card3" x="40" y="225" width="260" height="60" href="https://skillicons.dev/icons?i=postgres,mongodb,prisma"/>
+
+  <rect class="card card4" x="360" y="180" width="320" height="130" rx="12" fill="#0d1117" stroke="#D4537E" stroke-width="1.5"/>
+  <text class="card card4 label" x="380" y="210">DevOps</text>
+  <image class="card card4" x="380" y="225" width="260" height="60" href="https://skillicons.dev/icons?i=docker,aws,nginx"/>
+</svg>
