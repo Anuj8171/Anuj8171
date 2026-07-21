@@ -1,0 +1,34 @@
+<svg width="700" height="440" viewBox="0 0 700 440" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .card { opacity: 0; animation: fadeIn 0.6s ease forwards; }
+    .card1 { animation-delay: 0.1s; }
+    .card2 { animation-delay: 0.4s; }
+    .card3 { animation-delay: 0.7s; }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(15px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    .title { font-family: monospace; font-size: 17px; font-weight: bold; fill: #ffffff; }
+    .desc { font-family: monospace; font-size: 12px; fill: #b0b0b0; }
+    .stat { font-family: monospace; font-size: 13px; font-weight: bold; }
+    .tag { font-family: monospace; font-size: 11px; fill: #888888; }
+  </style>
+
+  <rect class="card card1" x="20" y="10" width="660" height="130" rx="12" fill="#0d1117" stroke="#1D9E75" stroke-width="1.5"/>
+  <text class="card card1 title" x="40" y="38">📡 NotifyHQ — Multi-tenant notification infra</text>
+  <text class="card card1 desc" x="40" y="60">SaaS notification service — in-app, email, webhook delivery via REST API</text>
+  <text class="card card1 stat" x="40" y="88" fill="#5DCAA5">100 req/s rate limited · 26 integration tests passing</text>
+  <text class="card card1 tag" x="40" y="112">Node.js · Express · PostgreSQL · Redis · BullMQ · Docker · Nginx</text>
+
+  <rect class="card card2" x="20" y="155" width="660" height="130" rx="12" fill="#0d1117" stroke="#7F77DD" stroke-width="1.5"/>
+  <text class="card card2 title" x="40" y="183">🔐 E2EE Chat App — Zero-knowledge messaging</text>
+  <text class="card card2 desc" x="40" y="205">Real-time messaging with client-side encryption — server never sees plaintext</text>
+  <text class="card card2 stat" x="40" y="233" fill="#AFA9EC">10,000 req/sec · sub-100ms message delivery</text>
+  <text class="card card2 tag" x="40" y="257">React.js · Socket.io · TweetNaCl · OAuth 2.0</text>
+
+  <rect class="card card3" x="20" y="300" width="660" height="130" rx="12" fill="#0d1117" stroke="#D85A30" stroke-width="1.5"/>
+  <text class="card card3 title" x="40" y="328">🔄 Sync Engine — Trello ⇄ Airtable automation</text>
+  <text class="card card3 desc" x="40" y="350">Bi-directional sync engine automating CRUD workflows</text>
+  <text class="card card3 stat" x="40" y="378" fill="#F0997B">500+ events/min · zero data loss</text>
+  <text class="card card3 tag" x="40" y="402">Python · PyAirtable · SQLite</text>
+</svg>
