@@ -13,12 +13,21 @@
 ## 🚀 Deployed services
 
 <details open>
-<summary><b>📡 NotifyHQ</b> — Multi-Tenant Notification Infrastructure</summary>
+<summary><b>📡 NotifyHQ</b> — Multi-tenant notification infrastructure</summary>
 <br>
 
-`Node.js` `Express` `PostgreSQL` `Redis` `BullMQ` `WebSockets` `Docker` `Nginx`
+![Node.js](https://img.shields.io/badge/-Node.js-1D9E75?style=flat-square&logoColor=white)
+![Express](https://img.shields.io/badge/-Express-1D9E75?style=flat-square&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-1D9E75?style=flat-square&logoColor=white)
+![Redis](https://img.shields.io/badge/-Redis-1D9E75?style=flat-square&logoColor=white)
+![BullMQ](https://img.shields.io/badge/-BullMQ-1D9E75?style=flat-square&logoColor=white)
+![WebSockets](https://img.shields.io/badge/-WebSockets-1D9E75?style=flat-square&logoColor=white)
+![Docker](https://img.shields.io/badge/-Docker-1D9E75?style=flat-square&logoColor=white)
+![Nginx](https://img.shields.io/badge/-Nginx-1D9E75?style=flat-square&logoColor=white)
 
 A production-grade SaaS notification service — in-app, email, and webhook delivery via REST API with strict multi-tenant isolation.
+
+> ⚡ **100 req/s** rate-limited per tenant · **26** integration tests passing
 
 | Metric | Value |
 |---|---|
@@ -33,12 +42,17 @@ A production-grade SaaS notification service — in-app, email, and webhook deli
 </details>
 
 <details>
-<summary><b>🔐 E2EE Chat App</b> — Zero-Knowledge Messaging</summary>
+<summary><b>🔐 E2EE Chat App</b> — Zero-knowledge messaging</summary>
 <br>
 
-`React.js` `Socket.io` `TweetNaCl` `OAuth 2.0` `Zustand`
+![React](https://img.shields.io/badge/-React-7F77DD?style=flat-square&logoColor=white)
+![Socket.io](https://img.shields.io/badge/-Socket.io-7F77DD?style=flat-square&logoColor=white)
+![TweetNaCl](https://img.shields.io/badge/-TweetNaCl-7F77DD?style=flat-square&logoColor=white)
+![OAuth](https://img.shields.io/badge/-OAuth_2.0-7F77DD?style=flat-square&logoColor=white)
 
-Real-time messaging platform with end-to-end encryption using asymmetric key exchange — the server never sees plaintext.
+Real-time messaging with client-side end-to-end encryption — the server never sees plaintext.
+
+> ⚡ **10,000 req/sec** · **sub-100ms** message delivery
 
 | Metric | Value |
 |---|---|
@@ -51,16 +65,20 @@ Real-time messaging platform with end-to-end encryption using asymmetric key exc
 </details>
 
 <details>
-<summary><b>🔄 Sync Engine</b> — Trello ⇄ Airtable Automation</summary>
+<summary><b>🔄 Sync Engine</b> — Trello ⇄ Airtable automation</summary>
 <br>
 
-`Python` `PyAirtable` `SQLite`
+![Python](https://img.shields.io/badge/-Python-D85A30?style=flat-square&logoColor=white)
+![PyAirtable](https://img.shields.io/badge/-PyAirtable-D85A30?style=flat-square&logoColor=white)
+![SQLite](https://img.shields.io/badge/-SQLite-D85A30?style=flat-square&logoColor=white)
 
 Bi-directional sync engine automating CRUD workflows between Trello and Airtable with zero data loss.
 
+> ⚡ **500+ events/min** · **zero** data loss
+
 | Metric | Value |
 |---|---|
-| Reliability | conflict resolution, idempotency, retry logic |
+| Reliability | Conflict resolution, idempotency, retry logic |
 | Throughput | 500+ sync events/min, zero data loss |
 
 **[→ view repo](https://github.com/Anuj8171/automation-two-way-sync)**
@@ -72,7 +90,7 @@ Bi-directional sync engine automating CRUD workflows between Trello and Airtable
 ## 🧠 Stack
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/Anuj8171/Anuj8171/main/assets/stack-cards.svg" alt="tech stack" />
+<img src="https://raw.githubusercontent.com/Anuj8171/Anuj8171/main/assets/stack-cards.svg?v=2" alt="tech stack" />
 </div>
 
 <br>
